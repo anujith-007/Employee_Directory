@@ -24,10 +24,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         // Do any additional setup after loading the view.
         
         let array = DatabaseHandler().getEmployeeData()
-        filteredData = array
-        employeeArray = array
-        print("sdfsfd")
-        fetchEmployeeAPI()
+        if let empArray = array, empArray.count > 0 {
+            filteredData = empArray
+            employeeArray = empArray
+        } else {
+            fetchEmployeeAPI()
+        }
+        
+        
     }
     
     //MARK:- UISearchBar Delegate

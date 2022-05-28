@@ -23,8 +23,8 @@ extension Employee {
     @NSManaged public var username: String?
     @NSManaged public var website: String?
     @NSManaged public var id: Int32
-    @NSManaged public var address_details: Address?
-    @NSManaged public var company_details: Company?
+    @NSManaged public var address: Address?
+    @NSManaged public var company: Company?
 
 }
 

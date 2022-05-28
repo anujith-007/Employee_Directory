@@ -19,6 +19,7 @@ extension Company {
     @NSManaged public var bs: String?
     @NSManaged public var catchPhrase: String?
     @NSManaged public var name: String?
+    @NSManaged public var username: String?
     @NSManaged public var employee: Employee?
 
 }

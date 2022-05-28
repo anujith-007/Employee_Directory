@@ -4,6 +4,7 @@
         <attribute name="city" optional="YES" attributeType="String"/>
         <attribute name="street" optional="YES" attributeType="String"/>
         <attribute name="suite" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
         <attribute name="zipcode" optional="YES" attributeType="String"/>
         <relationship name="employee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employee" inverseName="address" inverseEntity="Employee"/>
     </entity>
@@ -11,11 +12,10 @@
         <attribute name="bs" optional="YES" attributeType="String"/>
         <attribute name="catchPhrase" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
         <relationship name="employee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employee" inverseName="company" inverseEntity="Employee"/>
     </entity>
     <entity name="Employee" representedClassName=".Employee" syncable="YES">
-        <attribute name="address_details" optional="YES" attributeType="Transformable"/>
-        <attribute name="company_details" optional="YES" attributeType="Transformable"/>
         <attribute name="email" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
@@ -27,8 +27,8 @@
         <relationship name="company" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="employee" inverseEntity="Company"/>
     </entity>
     <elements>
-        <element name="Address" positionX="-54" positionY="36" width="128" height="104"/>
-        <element name="Company" positionX="-36" positionY="54" width="128" height="89"/>
-        <element name="Employee" positionX="-63" positionY="-18" width="128" height="194"/>
+        <element name="Address" positionX="-54" positionY="36" width="128" height="119"/>
+        <element name="Company" positionX="-36" positionY="54" width="128" height="104"/>
+        <element name="Employee" positionX="-63" positionY="-18" width="128" height="164"/>
     </elements>
 </model>

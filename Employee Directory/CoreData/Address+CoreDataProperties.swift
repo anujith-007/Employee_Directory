@@ -20,6 +20,7 @@ extension Address {
     @NSManaged public var street: String?
     @NSManaged public var suite: String?
     @NSManaged public var zipcode: String?
+    @NSManaged public var username: String?
     @NSManaged public var employee: Employee?
 
 }

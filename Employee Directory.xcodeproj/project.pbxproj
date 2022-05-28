@@ -22,12 +22,12 @@
 		8612B7FB2841F26E00E0F94F /* CoredataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8612B7FA2841F26E00E0F94F /* CoredataHandler.swift */; };
 		8612B8052841F86300E0F94F /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8612B8042841F86300E0F94F /* EmployeeModel.swift */; };
 		86C0279C2842467300896304 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C0279B2842467300896304 /* DetailsViewController.swift */; };
-		86C027A328425ABB00896304 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C0279D28425ABB00896304 /* Employee+CoreDataClass.swift */; };
-		86C027A428425ABB00896304 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C0279E28425ABB00896304 /* Employee+CoreDataProperties.swift */; };
-		86C027A528425ABB00896304 /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C0279F28425ABB00896304 /* Address+CoreDataClass.swift */; };
-		86C027A628425ABB00896304 /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027A028425ABB00896304 /* Address+CoreDataProperties.swift */; };
-		86C027A728425ABB00896304 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027A128425ABB00896304 /* Company+CoreDataClass.swift */; };
-		86C027A828425ABB00896304 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027A228425ABB00896304 /* Company+CoreDataProperties.swift */; };
+		86C027AF2842734100896304 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027A92842734100896304 /* Employee+CoreDataClass.swift */; };
+		86C027B02842734100896304 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027AA2842734100896304 /* Employee+CoreDataProperties.swift */; };
+		86C027B12842734100896304 /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027AB2842734100896304 /* Address+CoreDataClass.swift */; };
+		86C027B22842734100896304 /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027AC2842734100896304 /* Address+CoreDataProperties.swift */; };
+		86C027B32842734100896304 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027AD2842734100896304 /* Company+CoreDataClass.swift */; };
+		86C027B42842734100896304 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C027AE2842734100896304 /* Company+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,12 +50,12 @@
 		8612B7FA2841F26E00E0F94F /* CoredataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataHandler.swift; sourceTree = "<group>"; };
 		8612B8042841F86300E0F94F /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
 		86C0279B2842467300896304 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		86C0279D28425ABB00896304 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
-		86C0279E28425ABB00896304 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		86C0279F28425ABB00896304 /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
-		86C027A028425ABB00896304 /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		86C027A128425ABB00896304 /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
-		86C027A228425ABB00896304 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		86C027A92842734100896304 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		86C027AA2842734100896304 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		86C027AB2842734100896304 /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
+		86C027AC2842734100896304 /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		86C027AD2842734100896304 /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		86C027AE2842734100896304 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,12 +163,12 @@
 		8612B7FC2841F66300E0F94F /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				86C0279D28425ABB00896304 /* Employee+CoreDataClass.swift */,
-				86C0279E28425ABB00896304 /* Employee+CoreDataProperties.swift */,
-				86C0279F28425ABB00896304 /* Address+CoreDataClass.swift */,
-				86C027A028425ABB00896304 /* Address+CoreDataProperties.swift */,
-				86C027A128425ABB00896304 /* Company+CoreDataClass.swift */,
-				86C027A228425ABB00896304 /* Company+CoreDataProperties.swift */,
+				86C027A92842734100896304 /* Employee+CoreDataClass.swift */,
+				86C027AA2842734100896304 /* Employee+CoreDataProperties.swift */,
+				86C027AB2842734100896304 /* Address+CoreDataClass.swift */,
+				86C027AC2842734100896304 /* Address+CoreDataProperties.swift */,
+				86C027AD2842734100896304 /* Company+CoreDataClass.swift */,
+				86C027AE2842734100896304 /* Company+CoreDataProperties.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -297,19 +297,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8612B7F52841E36E00E0F94F /* BaseFile.swift in Sources */,
-				86C027A728425ABB00896304 /* Company+CoreDataClass.swift in Sources */,
+				86C027B32842734100896304 /* Company+CoreDataClass.swift in Sources */,
 				8612B7DC2841DE8000E0F94F /* ViewController.swift in Sources */,
-				86C027A628425ABB00896304 /* Address+CoreDataProperties.swift in Sources */,
+				86C027B22842734100896304 /* Address+CoreDataProperties.swift in Sources */,
 				8612B7D82841DE8000E0F94F /* AppDelegate.swift in Sources */,
-				86C027A828425ABB00896304 /* Company+CoreDataProperties.swift in Sources */,
+				86C027B42842734100896304 /* Company+CoreDataProperties.swift in Sources */,
 				86C0279C2842467300896304 /* DetailsViewController.swift in Sources */,
 				8612B8052841F86300E0F94F /* EmployeeModel.swift in Sources */,
 				8612B7DA2841DE8000E0F94F /* SceneDelegate.swift in Sources */,
 				8612B7F22841E21700E0F94F /* RequestManager.swift in Sources */,
-				86C027A428425ABB00896304 /* Employee+CoreDataProperties.swift in Sources */,
-				86C027A328425ABB00896304 /* Employee+CoreDataClass.swift in Sources */,
+				86C027B02842734100896304 /* Employee+CoreDataProperties.swift in Sources */,
+				86C027AF2842734100896304 /* Employee+CoreDataClass.swift in Sources */,
 				8612B7E22841DE8000E0F94F /* Employee_Directory.xcdatamodeld in Sources */,
-				86C027A528425ABB00896304 /* Address+CoreDataClass.swift in Sources */,
+				86C027B12842734100896304 /* Address+CoreDataClass.swift in Sources */,
 				8612B7F82841E88F00E0F94F /* Utilities.swift in Sources */,
 				8612B7F02841E1EF00E0F94F /* DataGenerator.swift in Sources */,
 				8612B7FB2841F26E00E0F94F /* CoredataHandler.swift in Sources */,
